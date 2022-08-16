@@ -20,14 +20,14 @@ let y = 9;
 
 let a=10;
 let b ="a";
-    console.log(b==="b" || a >= 10);
+    console.log(b==="b" || a >= 10); //true
 
 let c=3;
 let d=8;
-    console.log(!(c == "3" || c === d) && !(d !== 8 && c <= d));
+    console.log(!(c == "3" || c === d) && !(d !== 8 && c <= d)); //false
 
 let str = "";
 let msg = "haha!";
 let eBonito = "false";
-    console.log(!((str || msg) && eBonito));
+    console.log(!((str || msg) && eBonito)); //false
 

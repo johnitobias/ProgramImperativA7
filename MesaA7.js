@@ -11,9 +11,9 @@ console.log(!!0); //false
 console.log(!!""); //false
 let x = 5;  
 let y = 9;
-    //console.log(x < 10 && x!==5); //false
-    //console.log(x > 9 || x===5); //true
-    //console.log(!(x===y)); //true
+    console.log(x < 10 && x!==5); //false
+    console.log(x > 9 || x===5); //true
+    console.log(!(x===y)); //true
 
 //EXERCICIO 2
     console.log("EXERCICIO 2")
